@@ -1,7 +1,7 @@
 package negocio;
 
 public class Producto {
-    //nombre, precio, categoria
+
     public String nombre;
     public double precio;
     String categoria;
@@ -13,5 +13,11 @@ public class Producto {
 
     void mostrarCategoria(){
         System.out.println("Categoria: " + categoria);
+    }
+
+    void mostrarPrecioDescuento(){
+        double precioDescuento;
+        precioDescuento = precio - (precio*0.5);
+        System.out.println("Precio Descuento (-50%): $" + precioDescuento );
     }
 }

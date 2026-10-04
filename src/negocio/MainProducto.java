@@ -35,6 +35,8 @@ public class MainProducto {
         System.out.println("===== PRODUCTO 1 =====");
         producto1.mostrarInformacion();
         producto1.mostrarCategoria();
+        System.out.println("----- PROMOCION ! ----");
+        producto1.mostrarPrecioDescuento();
 
 
 
