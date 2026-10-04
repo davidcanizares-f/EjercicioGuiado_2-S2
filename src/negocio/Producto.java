@@ -9,10 +9,9 @@ public class Producto {
     public void mostrarInformacion(){
         System.out.println("Nombre: " + nombre);
         System.out.println("Precio: $ " + precio);
-        System.out.println("Categoria: " + categoria);
     }
 
-    /*void mostrarCategoria(){
-
-    }*/
+    void mostrarCategoria(){
+        System.out.println("Categoria: " + categoria);
+    }
 }
