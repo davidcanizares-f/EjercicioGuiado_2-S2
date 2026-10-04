@@ -16,9 +16,25 @@ public class MainProducto {
         producto1.mostrarInformacion();
         producto1.mostrarCategoria();
 
+        System.out.println();
+
         System.out.println("===== PRODUCTO 2 =====");
         producto2.mostrarInformacion();
         producto2.mostrarCategoria();
+
+        System.out.println();
+
+        System.out.println("----------------------");
+        System.out.println(">>>> CAMBIO DE ATRIBUTOS <<<<");
+        System.out.println("===== PRODUCTO 2 =====");
+        producto2.precio = 36;
+        System.out.println("Cambiando el precio de " + producto2.nombre +"...");
+        producto2.mostrarInformacion();
+        producto2.mostrarCategoria();
+
+        System.out.println("===== PRODUCTO 1 =====");
+        producto1.mostrarInformacion();
+        producto1.mostrarCategoria();
 
 
 
